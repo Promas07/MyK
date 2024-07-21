@@ -10,12 +10,13 @@
     </header>
     <section>
         <article>
-            <p> Perdon si te hice pasar un mal momento, la verdad nose como reaccionar ante estas cosas y me estreso y me pongo nervioso como si no supiera como reaccionar
+            <div class="perdon">
+                <p> Perdon si te hice pasar un mal momento, la verdad nose como reaccionar ante estas cosas y me estreso y me pongo nervioso como si no supiera como reaccionar
                 , y aunque es asi , muy en el fondo pienso que esta bien uanque al final no termine siendop asi, esta bien si quieres tu tiempo, lo entiendo. y quiero que sepas lo mucho
                 que aprecio que estes conmigo cuando estamos mal, perdon por mi actitud o caracterr de mierda pero trato de cambiar para ser lo mejor para vos mi amor, espero lo entiendas
-                <br><br>
-                <img src="img/Perrito feliz.png">
-            </p>
+                </p>
+            </div>
+            <img class="Burguers" src="img/Mola.jpeg">
         </article>     
     </section>
     <footer>
@@ -23,3 +24,35 @@
     </footer>
 </body>
 </html>
+
+#Titulo {
+    color: transparent;
+    background: linear-gradient(to left, rgb(250, 11, 190), rgb(255, 102, 0));
+    background-clip: text;
+    display: inline;
+    animation: animated 2 s linear infinite;
+    
+}
+
+@keyframes animated {
+    to{background-position-x: 150px;}
+}
+
+.perdon{
+    color: white;
+    background-color: black;
+    border: 5px solid black;
+    border-radius: 10px;
+    margin: 10px 10px;
+    padding: 10px 10px;
+}
+
+.Burguers {
+    border: 2px solid rgb(238, 11, 227);
+    width: 300px;
+    height: 300px;
+    position: relative;
+    left: 85px;
+    overflow: hidden;    
+}
+
